@@ -15,7 +15,15 @@ end
 gg.setVisible(true)
 gg.alert("⚠️ WARNING ⚠️ \n \nYou Login As Public Account!")
 gg.toast("Decrypt = Sucks")
+gg.setRanges(gg.REGION_ANONYMOUS)
 gg.toast("Subscribe Kenshin OPBR") 
+gg.toast("GameGuardian Sleecting Pacakge.. ") 
+gg.sleep("700")
+gg.toast("Donee")
+local targetName = [=====[Bounty]=====]
+local targetPkg = 'com.bandainamcoent.opbrww'
+local targetVersion = [=====['51100']=====]
+local checkTarget = 1
 
 function Main()
 menu = gg.choice({
